@@ -1,0 +1,463 @@
+@font-face {
+  font-family: "Gordita Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Regular"),
+    url("../fonts/Gordita%20Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Regular Italic"),
+    url("../fonts/Gordita%20Regular%20Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Thin"), url("../fonts/Gordita%20Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Thin Italic"),
+    url("../fonts/Gordita%20Thin%20Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Light"), url("../fonts/Gordita%20Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Light Italic"),
+    url("../fonts/Gordita%20Light%20Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Medium"),
+    url("../fonts/Gordita%20Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Medium Italic"),
+    url("Gordita%20Medium%20Italic.html") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Bold"), url("../fonts/Gordita%20Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Bold Italic"),
+    url("../fonts/Gordita%20Bold%20Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Black"), url("../fonts/Gordita%20Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Black Italic"),
+    url("../fonts/Gordita%20Black%20Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Ultra";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Ultra"), url("../fonts/Gordita%20Ultra.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gordita Ultra Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gordita Ultra Italic"),
+    url("../fonts/Gordita%20Ultra%20Italic.woff") format("woff");
+}
+
+body {
+  font-family: "Gordita Regular";
+}
+
+.display-4 {
+  font-size: 2rem;
+}
+
+/* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 3px 3px 0 0;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup.with-tab:after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -2em;
+  left: 5.5em;
+  width: 20%;
+  height: 0em;
+  border-bottom: 2em solid white;
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent;
+}
+
+.browser-mockup.with-url:after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -1.6em;
+  left: 5.5em;
+  width: calc(100% - 6em);
+  height: 1.2em;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.browser-mockup > * {
+  display: block;
+}
+
+.browser-mockup {
+  margin: 2em;
+  flex: 1;
+}
+
+#home-header {
+  background-image: linear-gradient(
+    to right,
+    #171f29,
+    #171f29 55%,
+    #f2f4f7 45%
+  );
+  min-height: 800px;
+}
+
+/*
+merchant agreement
+*/
+.section-features {
+  padding-top: 3em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #555555;
+}
+
+.agreement-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeeff2;
+  clear: both;
+}
+
+.section-features .left p {
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #525558;
+  padding: 0 5% 0 0;
+}
+
+.section-features .right p {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.section-features h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #71767a;
+  padding: 0 0 20px 0;
+  line-height: 14px;
+}
+
+.navbar-left .logo-dark,
+.navbar-left .logo-light {
+  max-height: 40px;
+}
+
+#home-header .business-woman {
+  position: absolute;
+  transition: opacity 400ms linear 0s;
+  bottom: 0px;
+  top: -200px;
+  width: 72%;
+  left: -100px;
+}
+
+#home-header .zoom-meeting {
+  position: absolute;
+  transition: opacity 400ms linear 0s;
+  bottom: 0px;
+  top: -100px;
+  width: 72%;
+  right: 0;
+}
+
+#home-header .lead::before {
+  content: "";
+  display: block;
+  position: relative;
+  margin-bottom: 24px;
+  width: 79px;
+  height: 1px;
+  background: #6f7782;
+}
+
+.video-wrapper.reveal .poster,
+.video-wrapper.reveal .btn {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.h-120 {
+  height: 120px;
+}
+
+.blockquote p::before,
+.blockquote p::after {
+  font-size: 3.5rem;
+}
+
+.navbar-dark .nav-navbar .nav-link,
+.navbar-light .nav-navbar .nav-link {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.navbar-dark .nav-navbar .nav-link {
+  color: #99a5b5;
+}
+
+.navbar-stick-light.stick .nav-navbar > .nav-link,
+.navbar-light .nav-navbar > .nav-link {
+  color: #616e80;
+}
+
+.navbar-dark .nav-navbar > .nav-link:hover,
+.navbar-stick-light.stick .nav-navbar > .nav-link:hover {
+  color: #50a1ff;
+}
+
+.btn {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+}
+
+#home-header h1,
+#home-header h2,
+#home-header h3,
+#home-header h4,
+#home-header h5,
+#home-header h6,
+#home-header .h1,
+#home-header .h2,
+#home-header .h3,
+#home-header .h4,
+#home-header .h5,
+#home-header .h6,
+#home-header .lead {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+#home-header .lead {
+  font-family: "Gordita Thin";
+  line-height: 30px;
+}
+
+.partner img {
+  max-height: 40px;
+  max-width: 150px;
+}
+
+[data-overlay]::before {
+  background: #28313c;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+
+  .navbar-left .logo-dark,
+  .navbar-left .logo-light {
+    max-height: 20px;
+  }
+
+  #home-header {
+    background-image: linear-gradient(
+      180deg,
+      #171f28,
+      #171f29 65%,
+      #f2f4f7 0 100%
+    );
+  }
+
+  #home-header {
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 260px;
+  }
+  #home-header .business-woman {
+    left: 15%;
+    width: 37%;
+    top: -40px;
+  }
+
+  #home-header .zoom-meeting {
+    width: 35%;
+    right: 75px;
+    top: 20px;
+  }
+
+  #home-header h1 {
+    font-size: 25px;
+  }
+
+  #home-header .lead::before {
+    display: none;
+  }
+
+  #home-header .lead {
+    width: 100% !important;
+  }
+
+  .partner img {
+    max-width: 120px;
+  }
+
+  .constellation {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+
+  #home-header {
+    background-image: linear-gradient(
+      180deg,
+      #171f28,
+      #171f29 65%,
+      #f2f4f7 0 100%
+    );
+  }
+
+  #home-header {
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 490px;
+  }
+
+  #home-header .business-woman {
+    left: unset;
+    width: 51%;
+    top: -40px;
+  }
+
+  #home-header .zoom-meeting {
+    width: 49%;
+    right: 15px;
+    top: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
